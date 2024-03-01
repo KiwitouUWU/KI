@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T14:53:10.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Lt2t-yVstIutfYHtAfoi" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T18:23:38.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="HwchrNWyH_br-O0E7yQ_" version="23.1.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1993" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,11 +135,29 @@
         <mxCell id="6WailBVs90-Itt1zpwlk-1824" value="&lt;h1&gt;The contextbus&lt;br&gt;&lt;/h1&gt;&lt;p&gt;is an abstract construct emerging from the registered inputs of neurons. It represents their specific sensory input. The goal is to have a main context bus to which small, module-like, neuron clusters attatch itself due to  conceptualisation of contexts and adaptation + specification. To have a working contextbus with new structures beeing allowed to form, i think there needs to be a way for the context bus to switch between &quot;states&quot; which i think of as perspectives or maybe sub-selfs. This would stop most attatched structures from interfering and more abstract or specific structures can form through further metaanalysis (perspectification of concepts).&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1430" y="180" width="280" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="U3QjsIjOIyw-v6ZHUwB5-1772" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+        <mxCell id="U3QjsIjOIyw-v6ZHUwB5-1772" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="460" width="210" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="U3QjsIjOIyw-v6ZHUwB5-1773" value="Contextbus" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;strokeWidth=3;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="U3QjsIjOIyw-v6ZHUwB5-1772">
+        <mxCell id="U3QjsIjOIyw-v6ZHUwB5-1773" value="Contextbus" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;strokeWidth=3;fillColor=none;fontStyle=1;fontSize=16;" parent="U3QjsIjOIyw-v6ZHUwB5-1772" vertex="1">
           <mxGeometry x="25" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1773" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NdBn0ralS6eYTOvCZfsW-1771" target="NdBn0ralS6eYTOvCZfsW-1772">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1771" value="Spezifisches &quot;System&quot;/Konzept" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1772" value="Abstraktion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1776" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NdBn0ralS6eYTOvCZfsW-1774" target="NdBn0ralS6eYTOvCZfsW-1775">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1774" value="Reis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdBn0ralS6eYTOvCZfsW-1775" value="Beutelinhalt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
